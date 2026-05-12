@@ -92,7 +92,7 @@ namespace RealApi.Data
         }
     }
 [ApiController]
-[Route("api/[controller]")] //ОБЯЗАТЕЛЬНО НУЖНО ПОНЯТЬ МНЕ!!! / 100 % 
+[Route("api/[controller]")]
 public class AuthController : ControllerBase
     {
         private readonly IValidator<User> validator;
